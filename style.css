@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #dfdfdf; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.logo img{
+    width: 250px;
+    height: 150px;
+}
+
+
+nav{
+    display: flex; 
+    justify-content: center; 
+    background-color: #9d9d9d; 
+    padding: 10px; 
+}
+nav a{
+    color: black; 
+    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+}
