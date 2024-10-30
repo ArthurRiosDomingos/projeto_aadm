@@ -5,6 +5,7 @@
 }
 
 header{
+    width: 100%;
     background-color: #dfdfdf; 
     color: white; 
     padding: 20px; 
@@ -30,3 +31,165 @@ nav a{
     font-size: 19px;
     font-weight: 700;
 }
+
+.imagem-segundaria{
+    background-color: #fc4629;
+    height: 800px;
+    position: relative;
+    margin-top: -230px;
+
+}
+
+.segundaria{
+    width: 102%;
+    height: 600px;
+    margin-top: -1290px;
+    margin-bottom: 1000px;
+}
+
+.imagem-segundaria h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    padding-left: 90px;
+}
+
+.caixa-mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto-wrapper{
+    border-radius: 25px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    background-color: white;
+    transition: 0.5s;
+   
+    margin-top: 90px;
+}
+
+
+.produto-wrapper img{
+    width: 300px;
+    height: 320px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+
+.especificacao{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.produto-wrapper h2{
+    color: #720e07;
+    margin-bottom: 10px;
+}
+
+
+
+.main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.main2{
+    width: 1800px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px; 
+}
+
+.wrapper{
+    
+    display: flex;
+    margin-top: 100px;
+}
+
+.text {
+    width: 900px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border: 4px solid #fc4629;
+    border-radius: 10px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.title {
+    margin-left: -60px;
+    font-size: 40px;
+    margin-top: -200px;
+    font-weight: 800;
+}
+
+.image{
+    margin-left: -60px;
+    width: 650px;
+    height: 450px;
+    box-shadow: 3px 6px 9px black;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+
+.servicos{
+    width: 100vh;
+    margin: 20px;
+}
+
+.servicos h1{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+.servicos2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.principal{
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.ex{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+
+.servicos img{
+    width: 650px;
+    height: 450px;
+    margin-left: 1130px;
+    margin-top: -2000px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 9px black;
+}
+
+
+
+
