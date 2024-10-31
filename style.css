@@ -190,6 +190,84 @@ nav a{
     box-shadow: 3px 6px 9px black;
 }
 
+.tipos-de-vandalismo{
+    width: 100vh;
+    margin-top: 140px;
+}
+
+.titulo{
+    margin-left: 40px;
+}
+
+.tipos-de-vandalismo img{
+    width: 200px;
+    margin-top: 95px;
+    margin-left: 120px;
+    border: 4px solid red;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+
+.graffit{
+    display: flex;
+    margin-left: 270px;
+    margin-top: -950px;
+    font-size: 30px;
+    color: red;
+}
+
+.graffits p{
+    margin-left: 270px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.destruicao{
+    margin-left: 270px;
+    margin-top: 80px;
+    font-size: 30px;
+    color: red;
+}
+
+
+.equipamentos{
+    margin-top: 18px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.vidros{
+    margin-left: 270px;
+    margin-top: 75px;
+    font-size: 30px;
+    color: red;
+}
+
+
+.janelas{
+    margin-left: 270px;
+    margin-top: 18px;
+    font-size: 25px;
+}
+
+.banheiros{
+    margin-left: 270px;
+    margin-top: 79px;
+    font-size: 30px;
+    color: red;
+}
+
+
+.comuns{
+    margin-left: 270px;
+    margin-top: 18px;
+    font-size: 25px;
+}
+
+
 
 
 
