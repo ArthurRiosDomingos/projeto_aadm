@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+header{
+    background-color: #dfdfdf; 
+    color: white; 
+    text-align: center;
+}
+
+.logo .logotipo{
+    width: 100%;
+    max-width: 400px;
+}
+.logo .logosecundaria{
+    height: 100px;
+    margin: 20px;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    background-color: #9d9d9d;
+    padding: 10px;
+}
+
+nav a{
+    color: black; 
+    margin: 0 15px; 
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+}
+nav a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.onda{
+    width: 100%;
+    margin-bottom: -5px;
+
+}
+
+.secundaria{
+    background-color: #fc4629;
+    height: auto;
+}
+
+
+
+.caixa-mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-wrapper{
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding-bottom: 10px;
+    background-color: white;
+    transition: 0.5s;
+    margin-top: 40px;
+    box-shadow: 3px 6px 20px black;
+}
+
+
+.produto-wrapper img{
+    width: 300px;
+    height: 320px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.especificacao{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.produto-wrapper h2{
+    color: #720e07;
+    margin-bottom: 10px;
+}
+
+main{
+    background-image: url(imagens/vandalismo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0 30px 0;
+
+}
+
+
+.wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text {
+    background-color: rgba(255, 255, 255);
+    width: 350px;
+    height: auto;
+    margin-top: 3px;
+    /* border: 4px solid #fc4629; */
+    border-radius: 10px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    box-shadow: 3px 6px 20px black;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.image{
+    background-color: rgba(255, 255, 255);
+    max-width: 50%;
+    min-width: 350px;
+    width: auto;
+    box-shadow: 3px 6px 20px black;
+    border-radius: 10px;
+    margin: auto 0 auto 0;
+    /* border: 4px solid #fc4629; */
+}
+
+.servicos{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    background-color: #fc4629;
+    padding: 50px 50px 120px 50px;
+
+    height: auto;
+
+}
+
+.box-servicos{
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 3px 6px 20px black;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 4px solid #fc4629; */
+    border-radius: 10px;
+    padding: 60px;
+}
+
+
+.servicos2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.principal{
+    margin-left: 30px;
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+.ex{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+
+.tipos-de-vandalismo{
+    margin-top: 140px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+.vandalismo-tipo{
+    min-height: 200px;
+    margin: 20px;
+    padding: 0 20px 0 0;
+    /* border: 4px solid #fc4629; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 3px 6px 20px black;
+}
+
+@media (max-width: 500px) {
+    .vandalismo-tipo {
+        flex-wrap: wrap; 
+    }
+
+}
+
+@media (max-width: 800px) {
+    .logo .logosecundaria{
+        display: none;
+    
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.vandalismo-texto{
+    margin-left: 10px;
+}
+
+
+
+.vandalismo-tipo img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fc4629;
+    border-radius: 10px;
+    box-shadow: 3px 6px 20px black;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: white;
+    color: #fc4629;
+}
+
+.card img{
+    width: 160px;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+    margin-right: 10px;
+
+}
+.card:hover a{
+    color: #fc4629;
+}
+.box-card{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+footer{
+    background-color: #fc4629;
+    min-height: 100px;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer .social-icons img{
+    width: 40px;
+    margin: 5px;
+}
+.social-icons{
+    padding: 20px;
+    display: flex;
+
+}
+
+.form-container {
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 20px black;
+    width: 100%;
+    width: 500px;
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fc4629;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #fc4629;
+}
+.espaco{
+    height: 100px;
+}
+
